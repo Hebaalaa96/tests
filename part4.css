@@ -1,0 +1,249 @@
+ * {
+ 	margin: 0;
+ 	padding: 0;
+ 	font-family: arial;
+ }
+
+
+body {
+	background-color: #ecf0f1;
+}
+
+/*------------------------------------------*/
+
+.menu {
+	/* Permalink - use to edit and share this gradient: https://colorzilla.com/gradient-editor/#8a9ba3+0,65829b+31,045175+100 */
+background: #8a9ba3; /* Old browsers */
+background: -moz-linear-gradient(top,  #8a9ba3 0%, #65829b 31%, #045175 100%); /* FF3.6-15 */
+background: -webkit-linear-gradient(top,  #8a9ba3 0%,#65829b 31%,#045175 100%); /* Chrome10-25,Safari5.1-6 */
+background: linear-gradient(to bottom,  #8a9ba3 0%,#65829b 31%,#045175 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#8a9ba3', endColorstr='#045175',GradientType=0 ); /* IE6-9 */
+
+
+	background-color: #95a5a6;
+	height: 60px;
+	width: 100%;
+	box-shadow: -1px 3px 4px grey;
+	position: fixed;
+	z-index: 100;
+
+
+}
+
+
+.menu #logo{
+	color: white;
+	font-size: 20px;
+	float: left;
+	padding: 15px 30px;
+	line-height: 30px;
+	height: 30px;
+	
+}
+
+/*.myimag {
+	float: left;
+	padding-left: 30px;
+	padding-top: 0.5px;
+	width: 35px;
+}*/
+
+
+
+
+
+
+.menu > ul {
+	margin: 0;
+ 	padding: 0;
+ 	float: left;
+ 	list-style-type: none;
+}
+
+.menu > ul > li {
+	float: left;
+
+}
+
+.menu-item {
+	display: inline-block;
+	padding: 15px 30px;
+	height: 30px;
+	line-height: 30px;
+	text-decoration: none;
+	color: white;
+	text-align: center;
+}
+
+
+.menu-item:hover {
+	background-color: #7f8c8d;
+	width: 85px;
+
+}
+
+
+
+/*------------------------------------------*/
+
+
+.sub-content {
+	position: absolute;
+	display: block;
+	top: 60px;
+	overflow: hidden;
+	background:black;
+	max-height: 0;
+	width: 145px;
+
+
+}
+
+
+.sub-content a {
+	color: white;
+	text-decoration: none;
+
+
+}
+
+.sub-drop {
+	padding: 0;
+
+}
+
+
+
+.sub-drop ul {
+	width: 100px;
+	padding: 0;
+	margin: 0;
+ 	list-style-type: none;
+
+
+}
+
+
+.sub-drop ul li a {
+	padding: 10px 20px;
+	display: inline-block;
+	
+
+}
+
+
+.sub-drop ul li:hover {
+	background-color: #7f8c8d;
+	width: 145px;
+
+}
+
+
+.sub-drop > ul {
+	visibility: hidden;
+	opacity: 0;
+}
+
+
+
+.menu ul li:hover  .sub-drop ul {
+	visibility: visible;
+	opacity: 1;
+	transition: visibility 0s, opacity 0.5s ease-in;
+}
+
+
+
+
+ul#subx-menu {
+    position: absolute;
+    top: 76px;
+    background-color: black;
+    right: 143px;
+    overflow: hidden;
+    max-width: 0;
+}
+
+
+.sub-drop ul li:hover > ul#subx-menu {
+	max-width: 400px;
+	transition: max-width 0.5s ease-in;
+}
+
+
+
+
+/*------------------------------------------*/
+
+
+.menu-item:focus {
+	background: black;
+
+}
+
+
+.menu ul li:hover  .sub-content {
+	max-height: 400px;
+	transition: max-height 0.5s ease-in;
+	overflow: visible;
+}
+
+
+
+
+#rmenu {
+	float: right;
+}
+
+
+
+
+/*------------------------------------------*/
+
+
+.sometext {
+	padding-top: 80px;
+	text-align: center;
+	font-size: 2em;
+	font-weight: bold;
+}
+
+.sometext span {
+	font-weight: bolder;
+	color: darkblue;
+}
+
+
+.imgcontect {
+	padding-top: 30px;
+	text-align: center;
+	margin: auto;
+
+
+}
+
+.imgcontect img {
+	border: 1px solid black;
+	box-shadow: -1px 3px 4px grey;
+	filter:grayscale(100%);
+}
+
+
+
+.alltext {
+	text-align: center;
+	padding-top: 15px;
+}
+
+
+.alltext p {
+	padding-bottom: 15px;
+	padding-top: 15px;
+	margin: auto;
+	width: 60%;
+}
+
+
+
+
+
